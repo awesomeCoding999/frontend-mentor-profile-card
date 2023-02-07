@@ -29,6 +29,7 @@ body {
 }
 
 .card-container {
+  margin-top: 2rem;
   width: 326px;
   background-color: var(--white);
   box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
