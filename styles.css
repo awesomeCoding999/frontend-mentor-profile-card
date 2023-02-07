@@ -26,7 +26,7 @@ body {
   background-image: url("./images/bg-pattern-top.svg"),
     url("./images/bg-pattern-bottom.svg");
   background-repeat: no-repeat no-repeat;
-  background-position: left -204.71px top -400px, bottom -600px right -500px;
+  background-position: left -700px top -600px, bottom -500px right -800px;
 }
 
 .card-container {
@@ -85,4 +85,13 @@ body {
   font-size: 0.625rem;
   letter-spacing: 1px;
   color: var(--dark-gray);
+}
+
+@media (min-width: 64em) {
+  body {
+    background-position: left -400px top -669.84px, bottom -600px right -400px;
+  }
+  .card-container {
+    width: 350px;
+  }
 }
