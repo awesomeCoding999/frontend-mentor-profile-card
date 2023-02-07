@@ -7,8 +7,7 @@
 }
 
 :root {
-  --dark-cyan: hsl(185, 75%, 39%);
-  --very-dark-desaturated-blue: #2d3248;
+  --dark-cyan: #19a2ae;
   --light-grey: #e8e9ec;
   --dark-gray: #6b7082;
   --dark-blue: #2e3349;
@@ -91,6 +90,18 @@ body {
   font-size: 0.625rem;
   letter-spacing: 1px;
   color: var(--dark-gray);
+}
+
+footer {
+  margin-top: 1rem;
+}
+
+footer a {
+  color: var(--light-grey);
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 
 @media (min-width: 64em) {
